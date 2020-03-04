@@ -3,6 +3,8 @@
 mkdir software
 mkdir sandbox
 
+cd sandbox
+
 if ! hash cmd_get 2>/dev/null; then
   echo "alias cmd_get='echo Get a coffee for Maarten'" >> ~/.bashrc
 fi
@@ -32,7 +34,7 @@ bash install_percolator.sh
 source ~/.bashrc
 rm install_percolator.sh
 
-cd software
+cd ../software
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_ion_networks.sh
 bash install_ion_networks.sh
@@ -45,4 +47,3 @@ source ~/.bashrc
 rm install_msqrob_parser.sh
 
 cd ..
-
