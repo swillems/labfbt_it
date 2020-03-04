@@ -20,4 +20,12 @@ Windows users need to install a Windows Subsystem for Linux (WSL) with Ubuntu 18
 
 Download and install [MobaXterm v11.1](https://mobaxterm.mobatek.net/download-home-edition.html) (the installer edition, not the portable edition.
 
+### Linux
+
+Open the MobaXTerm and double click the WSL icon on the left. Copy-paste the following command
+
+```bash
+wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_all.sh && bash install_all.sh && source ~/.bashrc
+```
+
 ## Usage
