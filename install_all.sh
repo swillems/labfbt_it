@@ -11,7 +11,7 @@ fi
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_conda.sh
 bash install_conda.sh
-exec bash
+source ~/.bashrc
 rm install_conda.sh
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_notebooks.sh
@@ -21,24 +21,24 @@ rm install_notebooks.sh
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_ms2pip.sh
 bash install_ms2pip.sh
-exec bash
+source ~/.bashrc
 rm install_ms2pip.sh
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_percolator.sh
 bash install_percolator.sh
-exec bash
+source ~/.bashrc
 rm install_percolator.sh
 
 cd ../software
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_ion_networks.sh
 bash install_ion_networks.sh
-exec bash
+source ~/.bashrc
 rm install_ion_networks.sh
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_msqrob_parser.sh
 bash install_msqrob_parser.sh
-exec bash
+source ~/.bashrc
 rm install_msqrob_parser.sh
 
 cd ..
