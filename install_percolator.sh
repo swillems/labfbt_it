@@ -6,6 +6,7 @@ tar xzvf percolator/percolator_3_02_01_ubuntu.tar.gz -C percolator
 
 if ! hash percolator 2>/dev/null; then
   echo "Installing percolator"
+  sudo apt update -y && sudo apt install -y libgomp1
   sudo dpkg -i percolator/percolator-v3-02-linux-amd64.deb
 else
   echo "Percolator is already installed."
@@ -13,7 +14,6 @@ fi
 
 if ! hash elude 2>/dev/null; then
   echo "Installing elude"
-  sudo apt update -y && sudo apt install -y libgomp1
   sudo dpkg -i percolator/elude-v3-02-linux-amd64.deb
 else
   echo "Elude is already installed."
