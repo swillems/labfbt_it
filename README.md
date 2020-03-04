@@ -25,7 +25,7 @@ Download and install [MobaXterm v11.1](https://mobaxterm.mobatek.net/download-ho
 Open the MobaXTerm and double click the WSL icon on the left. Copy-paste the following command
 
 ```bash
-wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_all.sh && bash install_all.sh && source ~/.bashrc
+wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_all.sh && bash install_all.sh && rm install_all.sh && source ~/.bashrc
 ```
 
 ## Usage
