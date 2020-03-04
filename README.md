@@ -6,7 +6,7 @@ MS-based computational proteomic tools include:
 * Ion-networks
 * Percolator
 * Elude
-* MsqRob Progenesis parse
+* MsqRob Progenesis parser
 
 ## Installation
 
@@ -29,3 +29,5 @@ wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_all.sh 
 ```
 
 ## Usage
+
+See the OneNote.
