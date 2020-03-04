@@ -17,7 +17,6 @@ if ! hash conda 2>/dev/null; then
   echo "Adding conda_notebooks alias to ~/.bashrc."
   echo "alias conda_notebooks='conda activate conda_jupyter_notebook_kernels && jupyter notebook && conda deactivate'" >> ~/.bashrc
   echo "alias cmd_get='Get a coffee for Maarten'" >> ~/.bashrc
-  # export conda_notebooks='conda activate && jupyter notebook && conda deactivate'
   echo "Cleaning up conda installation."
   source ~/.bashrc
   rm Miniconda3-latest-Linux-x86_64.sh
