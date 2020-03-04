@@ -21,6 +21,7 @@ if ! hash conda 2>/dev/null; then
   rm Miniconda3-latest-Linux-x86_64.sh
   rm install_conda.sh
   mkdir software
+  mkdir sandbox
 else
   echo "Conda is already installed."
 fi
