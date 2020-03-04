@@ -21,6 +21,11 @@ bash install_ms2pip.sh
 source ~/.bashrc
 rm install_ms2pip.sh
 
+wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_deeplc.sh
+bash install_deeplc.sh
+source ~/.bashrc
+rm install_deeplc.sh
+
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_percolator.sh
 bash install_percolator.sh
 source ~/.bashrc
