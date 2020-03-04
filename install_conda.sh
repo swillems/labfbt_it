@@ -16,6 +16,7 @@ if ! hash conda 2>/dev/null; then
   conda install -n root -c conda-forge nb_conda_kernels ipykernel -y
   echo "Adding conda_notebooks alias to ~/.bashrc."
   echo "alias conda_notebooks='conda activate && jupyter notebook && conda deactivate'" >> ~/.bashrc
+  echo "alias cmd_get='Get a coffee for Maarten'" >> ~/.bashrc
   # export conda_notebooks='conda activate && jupyter notebook && conda deactivate'
   echo "Cleaning up conda installation."
   source ~/.bashrc
