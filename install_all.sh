@@ -31,5 +31,10 @@ bash install_ion_networks.sh
 source ~/.bashrc
 rm install_ion_networks.sh
 
+wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_msqrob_parser.sh
+bash install_msqrob_parser.sh
+source ~/.bashrc
+rm install_msqrob_parser.sh
+
 cd ..
 
