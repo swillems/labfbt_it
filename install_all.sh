@@ -1,3 +1,6 @@
+sudo -i
+sudo apt update && sudo apt upgrade
+
 mkdir software
 mkdir sandbox
 
@@ -16,10 +19,17 @@ bash install_ms2pip.sh
 source ~/.bashrc
 rm install_ms2pip.sh
 
+wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_percolator.sh
+bash install_percolator.sh
+source ~/.bashrc
+rm install_percolator.sh
+
 cd software
+
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_ion_networks.sh
 bash install_ion_networks.sh
 source ~/.bashrc
 rm install_ion_networks.sh
+
 cd ..
 
