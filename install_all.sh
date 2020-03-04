@@ -1,7 +1,5 @@
 #!bash
 
-sudo apt update && sudo apt upgrade
-
 mkdir software
 mkdir sandbox
 
