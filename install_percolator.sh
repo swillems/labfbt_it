@@ -13,7 +13,7 @@ fi
 
 if ! hash elude 2>/dev/null; then
   echo "Installing elude"
-  sudo apt update && sudo apt upgrade && libgomp1
+  sudo apt update -y && sudo apt install -y libgomp1
   sudo dpkg -i percolator/elude-v3-02-linux-amd64.deb
 else
   echo "Elude is already installed."
