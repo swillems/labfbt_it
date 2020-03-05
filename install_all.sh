@@ -6,7 +6,7 @@ mkdir sandbox
 cd sandbox
 
 if ! hash cmd_get 2>/dev/null; then
-  echo "alias cmd_get='echo Get a coffee for Maarten'" >> ~/.bashrc
+  echo "alias cmd_get='echo Get a coffee and Semen for Maarten'" >> ~/.bashrc
 fi
 
 wget https://raw.githubusercontent.com/swillems/labfbt_it/master/install_conda.sh
