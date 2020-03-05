@@ -18,7 +18,7 @@ Windows users need to install a Windows Subsystem for Linux (WSL) with Ubuntu 18
 
 ### MobaXTerm
 
-Download and install [MobaXterm v11.1](https://mobaxterm.mobatek.net/download-home-edition.html) (the installer edition, not the portable edition.
+Download and install [MobaXterm v11.1](https://mobaxterm.mobatek.net/download-home-edition.html) (the installer edition, not the portable edition).
 
 ### Linux
 
